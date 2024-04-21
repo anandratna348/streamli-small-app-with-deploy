@@ -6,9 +6,9 @@ def find_max(num1, num2, num3):
 def main():
     st.title("Maximum Number Finder")
 
-    num1 = st.number_input("Enter the first number:", step=1)
-    num2 = st.number_input("Enter the second number:", step=1)
-    num3 = st.number_input("Enter the third number:", step=1)
+    num1 = st.number_input("Enter the first number:")
+    num2 = st.number_input("Enter the second number:")
+    num3 = st.number_input("Enter the third number:")
 
     if st.button("Find Maximum"):
         maximum = find_max(num1, num2, num3)
